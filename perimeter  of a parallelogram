@@ -1,0 +1,13 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+     Scanner sc=new Scanner(System.in);
+     System.out.println("HEIGHT OF THE PARALLELOGRAM");
+     int  height=sc.nextInt();
+     System.out.println("BREADTH OF THE PARALLELOGRAM");
+      int breadth=sc.nextInt();
+     int perimeter=2*(height+breadth);
+     System.out.println("perimeter of a parallelogram is:" +perimeter);
+}
+	}
